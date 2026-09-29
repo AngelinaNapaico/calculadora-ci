@@ -1,5 +1,6 @@
 # Maven target directory
 target/
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -25,3 +26,7 @@ bin/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Secretos de la integracion continua (webhook de Slack, claves, tokens)
+.env
+*.env.local
