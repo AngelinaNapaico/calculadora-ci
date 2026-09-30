@@ -17,9 +17,9 @@ public class CalculadoraTest {
     @Test
     @DisplayName("Prueba para Suma: 5 + 3 = 8")
     void debeSumarCorrectamente() {
-        assertEquals(9, calc.sumar(5, 3));   // antes era 8: fallo provocado
+        assertEquals(8, calc.sumar(5, 3));
     }
-    
+
     @Test
     @DisplayName("Prueba para Resta: 10 - 4 = 6")
     void debeRestarCorrectamente() {
